@@ -1,0 +1,168 @@
+/*
+ * Calculator UI Styles
+ * Implements responsive design with CSS variables, flexbox layout, and CSS Grid.
+ */
+
+/* -------------------------------------------------------------------------- */
+/* Root variables – easy theming and responsive adjustments */
+:root {
+  /* Colors */
+  --color-bg: #f4f4f9;               /* Page background */
+  --color-calculator-bg: #ffffff;   /* Calculator container */
+  --color-primary: #2c3e50;         /* Primary text / icons */
+  --color-digit: #34495e;           /* Digits */
+  --color-operator: #e74c3c;        /* Operators (+, -, ×, ÷) */
+  --color-control: #7f8c8d;         /* Controls (C, ⌫, ., =) */
+  --color-control-hover: #95a5a6;
+  --color-equal-bg: #27ae60;        /* Equals button */
+  --color-equal-hover: #2ecc71;
+  --color-display-bg: #ecf0f1;      /* Display background */
+  --color-display-border: #bdc3c7;
+
+  /* Sizing */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-size-base: 1rem;           /* 16px */
+  --font-size-display: 2.2rem;
+  --font-size-button: 1.4rem;
+  --button-height: 60px;
+  --button-radius: 8px;
+  --spacing: 1rem;
+  --max-width-calculator: 400px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Global layout – center calculator */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Calculator container */
+.calculator {
+  width: 100%;
+  max-width: var(--max-width-calculator);
+  background-color: var(--color-calculator-bg);
+  border-radius: var(--button-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: var(--spacing);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Display */
+.display {
+  height: var(--button-height);
+  background-color: var(--color-display-bg);
+  border: 1px solid var(--color-display-border);
+  border-radius: var(--button-radius);
+  padding: 0 0.75rem;
+  font-size: var(--font-size-display);
+  line-height: var(--button-height);
+  text-align: right;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Buttons grid */
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Base button style */
+.button {
+  height: var(--button-height);
+  font-size: var(--font-size-button);
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--button-radius);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.button:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Digit buttons */
+.digit {
+  background-color: var(--color-digit);
+  color: #fff;
+}
+
+.digit:hover,
+.digit:focus {
+  background-color: #3d566e;
+}
+
+/* Operator buttons */
+.operator {
+  background-color: var(--color-operator);
+  color: #fff;
+}
+
+.operator:hover,
+.operator:focus {
+  background-color: #c0392b;
+}
+
+/* Control buttons (C, ⌫, ., =) */
+.control {
+  background-color: var(--color-control);
+  color: #fff;
+}
+
+.control:hover,
+.control:focus {
+  background-color: var(--color-control-hover);
+}
+
+/* Equals button – special styling */
+.equal {
+  grid-column: span 2; /* Make it wider */
+  background-color: var(--color-equal-bg);
+  color: #fff;
+}
+
+.equal:hover,
+.equal:focus {
+  background-color: var(--color-equal-hover);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  :root {
+    --font-size-display: 1.8rem;
+    --font-size-button: 1.2rem;
+    --button-height: 50px;
+    --spacing: 0.75rem;
+  }
+
+  .calculator {
+    padding: 0.75rem;
+  }
+}
